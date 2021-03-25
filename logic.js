@@ -38,8 +38,14 @@ const gradient = () => {
   document.getElementById("heading").innerHTML =
     "Color 1:- " +
     a +
-    "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +
+    "              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +
     "Color 2:- " +
-    b;
+    b +
+    "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +
+    "Code :- linear-gradient(to right," +
+    a +
+    "," +
+    b +
+    ")";
   document.body.style.background = `linear-gradient(to right,${a},${b})`;
 };
